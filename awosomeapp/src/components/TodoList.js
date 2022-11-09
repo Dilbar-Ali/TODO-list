@@ -10,7 +10,7 @@ const TodoList = () => {
 
   const ListofItems = () => {
     setitems((olditems)=>{
-        return[...olditems,inputList]
+        return[...olditems,inputList ]
     })
 
   };
